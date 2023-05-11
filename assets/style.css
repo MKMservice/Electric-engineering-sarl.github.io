@@ -1,0 +1,151 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Resdressed&family=Merriweather:wgt@300;400;700&display=swap’);
+
+.redressed{
+    font-family: 'Resdressed', cursive;
+}
+.merriweather{
+    font-family: 'Merriweather',serif;
+}
+.cc-navbar{
+
+    font-family: 'Merriweather',serif;
+
+}
+.cc-navbar .nav-item .btn{
+    border-bottom: 1px solid transparent;
+    transition: padding .4s ease-in-out,border-color .3s ease;
+}
+.cc-navbar .nav-link:hover{
+padding-bottom: 20px;
+border-bottom-color: var(--bs-teal);
+}
+.banner, .order-form{
+  
+   background:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url('../picture/images (27).jpeg') center center fixed no-repeat;
+   background-size: cover;
+   height: 350px;
+
+}
+.order-form {
+
+    height: 500px;
+
+}
+.reservation-form{
+background: url('arrireplan.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.banner .banner-desc{
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+}
+
+Header{
+    Display : flex ;
+    Flex-direction : column ;
+    Align-items : center ;
+    background-image: url(cdc3.jpg);
+    Background-size : cover ;
+    Color : #fff ;
+    Padding : 40px ;
+    height: 500px;
+}
+
+Header h1{
+    Font-family : ‘Merriweather’, serif ;
+    Font-size : 70px ;
+}
+Header h4{
+    Margin-top : -20px ;
+    Font-size : 30px ;
+    Text-align : center ;
+}
+
+ 
+/* Video de présentation */
+.main .video{
+    margin-top: 80px;
+    width: 90%;
+  }
+  .main .video iframe{
+    border:none;
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+  }
+  /* Fin de la vidéo de présentation */
+
+Footer{
+    Margin-top : 40px ;
+    Border-top : 5px solid #6f6f6f ;
+    Background-color : rgb(0, 0, 0) ;
+    Color : #fff ;
+    Padding : 30px 100px ;;
+}
+Footer h1{
+    Font-family : ‘Playfair Display’, serif ;
+    Border-bottom : 1px solid white ;
+    Width : 20% ;
+    Padding-bottom : 5px ;
+}
+Footer .services{
+    Margin-top : -10px ;
+    Display :flex ;
+    Flex-wrap :wrap ;
+}
+Footer .services .service{
+    Margin-right : 30px ;
+}
+Footer .services .service p{
+    Max-width : 300px ;
+}
+Footer #contact{
+    Color : rgb(181, 181, 181) ;
+}
+
+@media screen and (max-width :680px){
+
+    .banner{
+  
+        height: auto;
+     
+     }
+     .banner .banner-desc{
+         font-size: 25px;
+         font-weight: 400;
+         color: #fff;
+         Font-family : ‘Merriweather’, serif ;
+         text-align: center;
+     }
+
+
+
+
+    Header{
+        background-image: url();
+    background-color: black;
+    height: auto;
+   }
+   Header h1{
+    text-align: center;
+    Font-family : ‘Merriweather’, serif ;
+    Font-size : 40px ;
+}
+Header h4{
+    padding-top: 10px;
+   text-underline-offset:inherit;
+    Text-align : center ;
+    
+}
+header a{
+    visibility: hidden;
+}
+    Footer{
+        Padding : 30px ;
+    }
+
+}
